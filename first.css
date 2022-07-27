@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Noto+Serif&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(194, 176, 176);
+    width: 10vw;
+    height: 100vh;
+    font-family: 'Noto Serif', serif;
+}
+
+.sidebar nav{
+    padding: 32px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0 ;
+}
+
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: orange;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 58vh;
+}
+
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hello{
+    font-size: 75px;
+    
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.button{
+
+}
