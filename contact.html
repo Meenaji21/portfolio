@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <div class="container">
@@ -24,6 +25,10 @@
                     <h1>Contact me for work/General Enquiries</h1>
                     <form>
                         <div class="mb-3">
+                          <label for="client name" class="form-label">Name:</label>
+                          <input type="text" class="form-control" id="client name" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
                           <label for="client email" class="form-label">Email address:</label>
                           <input type="email" class="form-control" id="client email" aria-describedby="emailHelp">
                           <div id="emailHelp" class="form-text">We'll never share your email and number with anyone else.</div>
@@ -32,9 +37,13 @@
                           <label for="client mobile number" class="form-label">Mobile number:</label>
                           <input type="number" class="form-control" id="client mobile number">
                         </div>
+                        <div class="mb-3">
+                          <label for="client enquiry" class="form-label">Enquiry:</label>
+                          <textarea name="" id="client enquiry" cols="10" rows="5"></textarea>
+                        </div>
                         <div class="mb-3" id="form-check">
                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">t want you to work on project with me</label>
+                          <label class="form-check-label" for="exampleCheck1"><I></I> want you to work on project with me</label>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
