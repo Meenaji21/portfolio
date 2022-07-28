@@ -8,7 +8,7 @@
 
 .sidebar{
     background-color: rgb(194, 176, 176);
-    width: 10vw;
+    width: 434px;
     height: 100vh;
     font-family: 'Noto Serif', serif;
 }
@@ -23,8 +23,13 @@
     padding: 33px 0 ;
 }
 
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(40, 31, 31);
+}
+
 .main{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 90vw;
 }
 
@@ -71,6 +76,7 @@
 
 .moreabout{
     font-size: 22px;
+    margin-top: 20px;
     font-family: 'Noto Serif', serif;
 }
 
