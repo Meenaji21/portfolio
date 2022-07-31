@@ -8,28 +8,24 @@
     <title>Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="index.css">
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-        }
-    </script>
 </head>
 
 <body>
+    
     <div class="container">
-        <nav class="sidebar sidebargo">  
-            <ul>
-                <li><a href="index.html"><i class='bx bx-home-alt-2 icon'></i></a><a href="index.html">Home</a></li>
-                <li><a href="intro.html"><i class='bx bx-user-voice icon'></i></a><a href="intro.html">Intro</a></li>
-                <li><a href="blog.html"><i class='bx bxl-blogger icon' ></i></a><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html"><i class='bx bxs-message-dots icon'></i></a><a href="contact.html">Contact me</a></li>
-            </ul>
-        </nav>
         <div class="main">
             <div class="hamburger hamburgergo">
-                <img class="ham" src="hamburger.png" width="45px">
-                <img class="cross" src="cross.png" width="55px">
+                <img onclick="document.getElementById('id1').style.display = 'block'" class="ham" src="hamburger.png" width="45px">
+                <img onclick="document.getElementById('id1').style.display = 'none'" class="cross" src="cross.png" width="55px">
             </div>
+            <nav class="sidebar sidebargo" id="id1">  
+                <ul>
+                    <li><a href="index.html"><i class='bx bx-home-alt-2 icon'></i></a><a href="index.html">Home</a></li>
+                    <li><a href="intro.html"><i class='bx bx-user-voice icon'></i></a><a href="intro.html">Intro</a></li>
+                    <li><a href="blog.html"><i class='bx bxl-blogger icon' ></i></a><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html"><i class='bx bxs-message-dots icon'></i></a><a href="contact.html">Contact me</a></li>
+                </ul>
+            </nav>
             <div class="profilepic">
                 <img src="dev1.png" alt="Sourabh Meena">
                 <h2>Hi I am</h2>

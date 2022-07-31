@@ -7,14 +7,14 @@
 .sidebar {
   /* border: 2px solid black; */
   background-color: rgb(194, 163, 163);
-  width: 15%;
+  width: 20%;
   height: 100vh;
   transition: transform .3s ease-in-out;
-  /* display: none; */
+  display: none;
 }
 
 .sidebargo{
-  transform: translate(-443px, 0px);
+  /* transform: translate(-443px, 0px); */
   position: absolute;
 }
 
@@ -106,13 +106,15 @@
 
 .hamburger{
   position: absolute;
+  z-index: 111;
   top: 5px;
   left: 10px;
   cursor: pointer;
 }
 
 .cross{
-  margin-left: 100px;
+  margin-left: 200px;
+  position: absolute;
 }
 
 
