@@ -5,17 +5,11 @@
 
 /* //////sidebar code //////// */
 .sidebar {
-  /* border: 2px solid black; */
+  border: 2px solid black;
   background-color: rgb(194, 163, 163);
   width: 20%;
   height: 100vh;
   transition: transform .3s ease-in-out;
-  display: none;
-}
-
-.sidebargo{
-  /* transform: translate(-443px, 0px); */
-  position: absolute;
 }
 
 .sidebar ul {
@@ -55,15 +49,10 @@
   display: flex;
 }
 
-.main {
-  /* border: 2px solid red; */
-  background-color: rgba(234, 104, 104, 0.307);
-  width: 100%;
-  height: 100vh;
-}
-
 .profilepic {
-  /* border: 2px solid blueviolet; */
+  border: 5px solid blueviolet;
+  background-color: rgba(234, 104, 104, 0.307);
+  width: 80%;
   text-align: center;
 }
 
@@ -102,20 +91,42 @@
   transition: 0.5s;
 }
 
+.hamburger{
+  display: none;
+}
+
 /* ////////////hamburger code/////////// */
 
-.hamburger{
-  position: absolute;
-  z-index: 111;
-  top: 5px;
-  left: 10px;
-  cursor: pointer;
-}
 
-.cross{
-  margin-left: 200px;
-  position: absolute;
-}
 
+@media screen and (max-width: 950px) {
+  .sidebar{
+    display: none;
+    width: 60%;
+    position: absolute;
+  }
+  .profilepic {
+    display: none;
+    height: 100vh;
+    width: 100%;
+  }
+  .hamburger{
+    display: flex;
+    position: absolute;
+    z-index: 111;
+    justify-content: space-between;
+    justify-items: center;
+    width: 60%;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+  }
+  
+  .cross{
+    display: block;
+    /* margin-left: 200px; */
+    /* position: absolute; */
+  } 
+}
 
 /* ////////////hamburger code end/////////// */
