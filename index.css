@@ -50,7 +50,7 @@
 }
 
 .profilepic {
-  border: 5px solid blueviolet;
+  /* border: 5px solid blueviolet; */
   background-color: rgba(234, 104, 104, 0.307);
   width: 80%;
   text-align: center;
@@ -123,7 +123,7 @@
   }
   
   .cross{
-    /* display: none; */
+    display: none;
     /* margin-left: 200px; */
     /* position: absolute; */
   } 
