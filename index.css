@@ -103,7 +103,7 @@
   .sidebar{
     display: none;
     width: 60%;
-    position: absolute;
+    /* position: absolute; */
   }
   .profilepic {
     /* display: none; */
@@ -113,7 +113,6 @@
   .hamburger{
     display: flex;
     position: absolute;
-    z-index: 111;
     justify-content: space-between;
     justify-items: center;
     width: 60%;
