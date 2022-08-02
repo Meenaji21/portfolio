@@ -131,6 +131,10 @@ img {
 .mg{
   margin: 5px 0;
 }
+.mg1{
+  border-radius: 8px;
+  max-width: 90%;
+}
 
 /* ////////////hamburger code/////////// */
 
