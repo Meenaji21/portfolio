@@ -2,14 +2,16 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: rgb(222, 207, 207);
+}
 
 /* //////sidebar code //////// */
 .sidebar {
-  border: 2px solid black;
-  background-color: rgb(194, 163, 163);
+  display: none;
+  border: 5px solid black;
   width: 20%;
   height: 100vh;
-  transition: transform .3s ease-in-out;
 }
 
 .sidebar ul {
@@ -26,14 +28,16 @@
   border-bottom: 2px solid rgb(219, 179, 179);
 }
 
-.sidebar ul li a,.icon {
+.sidebar ul li a,
+.icon {
   /* border: 2px solid red; */
   font-size: 1.5rem;
   text-decoration: none;
   color: rgb(40, 31, 31);
 }
 
-.icon,.sidebar ul li a:hover {
+.icon,
+.sidebar ul li a:hover {
   padding-left: 1rem;
   font-size: 1.8rem;
   color: darkcyan;
@@ -45,18 +49,19 @@
 
 /* ///////////sidebar code end//////////  */
 
-.container {
-  display: flex;
-}
-
 .profilepic {
   /* border: 5px solid blueviolet; */
-  background-color: rgba(234, 104, 104, 0.307);
-  width: 80%;
+  /* background-color: rgba(234, 104, 104, 0.307); */
+  width: 100%;
   text-align: center;
+  /* overflow-y: scroll; */
 }
 
-.profilepic h2,h1,h3,p,img {
+.profilepic h2,
+h1,
+h3,
+p,
+img {
   margin-bottom: 12px;
 }
 
@@ -91,8 +96,37 @@
   transition: 0.5s;
 }
 
-.hamburger{
+.hamburger {
   display: none;
+}
+
+.project{
+  /* border: 5px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+.p1{
+  border: 2px solid rgb(177, 108, 108);
+  margin: 8px 0;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 5.5rem;
+  box-shadow: 5px 5px 5px rgb(221, 11, 67);
+  transition: 1s;
+}
+
+.p1:hover{
+  transform: scale(1.05);
+}
+
+.mg{
+  margin: 5px 0;
 }
 
 /* ////////////hamburger code/////////// */
@@ -100,17 +134,19 @@
 
 
 @media screen and (max-width: 950px) {
-  .sidebar{
+  .sidebar {
     display: none;
     width: 60%;
+    transition: transform .3s ease-in-out;
     /* position: absolute; */
   }
+
   .profilepic {
     /* display: none; */
-    height: 100vh;
     width: 100%;
   }
-  .hamburger{
+
+  .hamburger {
     display: flex;
     position: absolute;
     justify-content: space-between;
@@ -120,12 +156,12 @@
     left: 10px;
     cursor: pointer;
   }
-  
-  .cross{
+
+  .cross {
     display: none;
     /* margin-left: 200px; */
     /* position: absolute; */
-  } 
+  }
 }
 
 /* ////////////hamburger code end/////////// */
