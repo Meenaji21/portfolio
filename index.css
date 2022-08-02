@@ -9,9 +9,9 @@ body{
 /* //////sidebar code //////// */
 .sidebar {
   display: none;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   width: 20%;
-  height: 100vh;
+  position: fixed;
 }
 
 .sidebar ul {
@@ -57,11 +57,7 @@ body{
   /* overflow-y: scroll; */
 }
 
-.profilepic h2,
-h1,
-h3,
-p,
-img {
+.profilepic h2,h1,h3,p,img {
   margin-bottom: 12px;
 }
 
@@ -96,9 +92,30 @@ img {
   transition: 0.5s;
 }
 
+
+
+/* ////////////hamburger code/////////// */
+
+/* .hamburger {
+  display: none;
+} */
+
 .hamburger {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  justify-items: center;
+  width: 60%;
+  top: 5px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.cross {
   display: none;
 }
+
+/* ////////////hamburger code end/////////// */
 
 .project{
   /* border: 5px solid black; */
@@ -129,39 +146,3 @@ img {
   margin: 5px 0;
 }
 
-/* ////////////hamburger code/////////// */
-
-
-
-@media screen and (max-width: 950px) {
-  .sidebar {
-    display: none;
-    width: 60%;
-    transition: transform .3s ease-in-out;
-    /* position: absolute; */
-  }
-
-  .profilepic {
-    /* display: none; */
-    width: 100%;
-  }
-
-  .hamburger {
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-    justify-items: center;
-    width: 60%;
-    top: 5px;
-    left: 10px;
-    cursor: pointer;
-  }
-
-  .cross {
-    display: none;
-    /* margin-left: 200px; */
-    /* position: absolute; */
-  }
-}
-
-/* ////////////hamburger code end/////////// */
