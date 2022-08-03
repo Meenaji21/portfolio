@@ -1,3 +1,4 @@
+// hamburger javascript
 function sam() {
   let x = document.getElementById('id1');
   x.style.display = 'block';
@@ -14,3 +15,6 @@ function sam1() {
   let z = document.getElementById("cross1");
   z.style.display = 'none';
 }
+
+// blog.html javascript
+
