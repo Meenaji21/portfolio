@@ -32,18 +32,16 @@ body{
   border-bottom: 2px solid rgb(219, 179, 179);
 }
 
-.sidebar ul li a,
-.icon {
+.sidebar ul li a,.icon {
   /* border: 2px solid red; */
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
   color: rgb(40, 31, 31);
 }
 
-.icon,
-.sidebar ul li a:hover {
+.icon,.sidebar ul li a:hover {
   padding-left: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: darkcyan;
 }
 
@@ -57,6 +55,8 @@ body{
   /* border: 5px solid blueviolet; */
   /* background-color: rgba(234, 104, 104, 0.307); */
   width: 100%;
+
+  font-size: .8rem;
   text-align: center;
   /* overflow-y: scroll; */
 }
@@ -70,7 +70,7 @@ img {
 }
 
 .profilepic img {
-  max-width: 20%;
+  max-width: 15%;
 }
 
 .btn {
@@ -86,7 +86,7 @@ img {
   background-color: rgb(201, 60, 97);
   color: rgba(245, 245, 245, 0.832);
   font-weight: bold;
-  font-size: 1rem;
+  font-size: .8rem;
   border-radius: 20px;
   cursor: pointer;
   border: none;
@@ -103,7 +103,7 @@ img {
 .hamburger {
   display: none;
 }
-
+/*///////// project code //////// */
 .project{
   /* border: 5px solid black; */
   display: flex;
@@ -114,6 +114,7 @@ img {
 
 .p1{
   border: 2px solid rgb(177, 108, 108);
+  font-size: .8rem;
   margin: 8px 0;
   border-radius: 1rem;
   display: flex;
@@ -134,14 +135,14 @@ img {
 }
 .mg1{
   border-radius: 8px;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 /* ////////////hamburger code/////////// */
 
 .hamburger {
   display: flex;
-  position: sticky;
+  /* position: sticky; */
   justify-content: space-between;
   justify-items: center;
   max-width: 10%;
