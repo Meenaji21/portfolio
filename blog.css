@@ -18,7 +18,11 @@
 }
 .read-more-btn{
     color: red;
+    cursor: pointer;
 }
 .read-more-text{
     display: none;
+}
+.read-more-text--show{
+    display: inline;
 }
