@@ -1,12 +1,52 @@
 .contact-me{
-    border: 5px solid red;
-    text-align: center;
-}
-
-.cilent-info{
-    border: 2px solid blue;
+    /* border: 5px solid red; */
+    /* text-align: center; */
     display: flex;
+    /* background-color: bisque; */
+    font-size: .8rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 9px;
+    max-width: 100%;
+    /* margin: 50px 400px; */
+    /* box-shadow: 1rem 1rem 1rem rgb(212, 75, 75); */
+}
+.ip{
+    border-radius: 5px;
+    max-width: 100%;
+    background-color: rgba(175, 200, 192, 0.544);
+}
+.cilent-info{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.work{
+    /* border: 2px solid blue; */
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: .3rem;
+}
+.msg{
+  padding: 5px 10px;
+  background-color: rgb(201, 60, 97);
+  color: rgba(245, 245, 245, 0.832);
+  font-weight: bold;
+  font-size: .8rem;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  margin-bottom: .3rem;
+}
+.msg:hover {
+    color: darkcyan;
+    background-color: rgb(205, 178, 223);
+    font-size: 1rem;
+    transition: 0.5s;
+}
+p{
+    color: red;
+    font-size: .6rem;
 }
