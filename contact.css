@@ -1,0 +1,12 @@
+.contact-me{
+    border: 5px solid red;
+    text-align: center;
+}
+
+.cilent-info{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
