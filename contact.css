@@ -12,6 +12,7 @@
     /* margin: 50px 400px; */
     /* box-shadow: 1rem 1rem 1rem rgb(212, 75, 75); */
 }
+
 .ip{
     border-radius: 5px;
     max-width: 100%;
@@ -28,6 +29,7 @@
     flex-direction: column; */
     margin-top: .3rem;
 }
+/* button css */
 .msg{
   padding: 5px 10px;
   background-color: rgb(201, 60, 97);
